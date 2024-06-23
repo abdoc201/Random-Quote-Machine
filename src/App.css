@@ -1,0 +1,60 @@
+body {
+  margin:0;
+  padding:0;
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: 1s ease;
+  overflow-y: hidden;
+}
+#quote-box {
+  width:500px;
+  background-color: rgb(215, 198, 198);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgb(46, 40, 40);
+  text-align: center;
+  transition: 0.3s ease-out;
+}
+#quote-container{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#text,#author{
+  transition: 1s ease-out;
+  font-size: 21pt;
+  width: 80%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow Bold', sans-serif;
+}
+#new{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+button{
+  border: none;
+  border-radius: 12px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  background-color: #fcb69f;
+  padding: 20px;
+  height: 60px;
+  cursor: pointer;
+  color: white;
+  transition: 1s ease;
+}
+button:hover,#twitter-icon:hover{
+  opacity: 0.5;
+}
+#twitter-icon{
+  transition: 1s ease;
+}
